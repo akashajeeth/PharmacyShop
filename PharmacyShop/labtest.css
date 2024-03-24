@@ -1,0 +1,38 @@
+.main-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 5% 10% 5% 10%;
+    
+}
+
+.main-content .img-form img{
+    width: 530px;
+    height: 480px;
+    position:fixed;
+}
+.main-content .labform input{
+    border: none;
+    border-bottom: solid 2px #4a4740;
+    width: 35%;
+}
+.main-content .labform{
+    padding: 0 0 20px 20px;
+}
+.border-form button{
+    color: white;
+    background-color: blueviolet;
+    padding: 5px;
+    margin-left: 450px;
+    bottom: 2%;
+    position: fixed;
+    
+}
+.border-form .submit input{
+    color: white;
+    background-color: blueviolet;
+    padding: 5px;
+    margin-left: 550px;
+    bottom: 2%;
+    position: fixed;
+   
+}

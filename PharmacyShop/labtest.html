@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="labtest.css"/>
+    <title>labtest</title>
+</head>
+<body>
+<div class="border-form">
+<div class="main-content">
+    <div class="labform">
+        <h1>1. Your Content Details</h1>
+        <input type="text" placeholder="Full Name"/>
+        <input type="number" placeholder="Patient Id if exist"/><br><br>
+        <input type="number" placeholder="Contact number"/>
+        <input type="email" placeholder="Email Id"/><br><br>
+        <h1>2. Address</h1>
+        <input type="number" placeholder="H-No"/>
+        <input type="text" placeholder="Street"/><br><br>
+        <input type="text" placeholder="Area"/><br>
+
+        <h3>District</h3>
+        <select name="District" multiple>
+            <option selected>chengalpattu</option>
+            <option>chennai</option>
+            <option>kanchipuram</option>
+            <option>villupuram</option>
+        </select>
+        <h1>3. Choose the Test Type</h1>
+        <span>(Check at least one box without fail)</span><br><br>
+        <input type="checkbox" name="test" value="CBC" />CBC<br>
+        <input type="checkbox" name="test" value="Complete Urine" />Complete Urine<br>
+        <input type="checkbox" name="test" value="Lipid Profile" />Lipid Profile<br>
+        <input type="checkbox" name="test" value="TSH" />Thyroid Stimulating Hormone (TSH)<br>
+        <input type="checkbox" name="test" value="Glucose Test" />Glucose Test<br>
+
+        <h1>4. Do you want a hard copy of the report also?</h1>
+        <input type="radio" name="copy" value="yes"/>Yes
+        <input type="radio" name="copy" value="yes"/>No 
+        <br>
+
+        <h1>5. Select Your Comfortable Date and Time</h1>
+        <input type="date" /><br><br>
+        <input type="time" /><br>
+
+    </div>
+    <div class="img-form">
+        <img src="images/Lab-Test/lab-test.jpg"/>
+    </div>
+</div>
+<div class="submit">
+    <button  type="reset">Resert</button>
+    <input  type="submit" />
+</div>
+</div>
+</body>
+</html>
