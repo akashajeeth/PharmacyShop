@@ -2,12 +2,15 @@
     display: grid;
     grid-template-columns: 50% 50%;
     margin: 5% 10% 5% 10%;
-    
+    box-shadow: 5px 10px 5px 10px;
+    overflow-y: scroll;
+    width: 81%;
+    height: 480px;
 }
 
 .main-content .img-form img{
     width: 530px;
-    height: 480px;
+    height: 470px;
     position:fixed;
 }
 .main-content .labform input{
